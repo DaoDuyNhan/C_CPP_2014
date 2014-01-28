@@ -5,6 +5,9 @@
       location = "container:"
       name = "Th&#237; nghi&#7879;m, nghi&#234;n c&#7913;u.">
       <FileRef
+         location = "group:Linh tinh/Linh tinh.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Input va&#768;o mo&#803;&#770;t da&#771;y ca&#769;c &#273;o&#770;&#769;i tu&#795;o&#795;&#803;ng. Output mo&#803;&#770;t da&#771;y ca&#769;c &#273;o&#770;&#769;i tu&#795;o&#795;&#803;ng rie&#770;ng bie&#803;&#770;t./Input va&#768;o mo&#803;&#770;t da&#771;y ca&#769;c &#273;o&#770;&#769;i tu&#795;o&#795;&#803;ng. Output mo&#803;&#770;t da&#771;y ca&#769;c &#273;o&#770;&#769;i tu&#795;o&#795;&#803;ng rie&#770;ng bie&#803;&#770;t..xcodeproj">
       </FileRef>
       <FileRef

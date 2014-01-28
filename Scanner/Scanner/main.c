@@ -29,6 +29,7 @@ void skipBlank() {
 
 void skipComment() {
   // TODO
+    
 }
 
 Token* readIdentKeyword(void) {
