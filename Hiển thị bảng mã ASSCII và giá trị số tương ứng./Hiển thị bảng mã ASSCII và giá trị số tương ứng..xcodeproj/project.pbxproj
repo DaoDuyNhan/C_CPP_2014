@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5919AAFB1893D1D300691A3D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5919AAFA1893D1D300691A3D /* main.c */; };
+		5919AAFD1893D1D300691A3D /* Hie__n_thi__ba_ng_ma__ASSCII_va__gia__tri__so___tu_o_ng_u__ng_.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5919AAFC1893D1D300691A3D /* Hie__n_thi__ba_ng_ma__ASSCII_va__gia__tri__so___tu_o_ng_u__ng_.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5919AAF51893D1D300691A3D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				5919AAFD1893D1D300691A3D /* Hie__n_thi__ba_ng_ma__ASSCII_va__gia__tri__so___tu_o_ng_u__ng_.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5919AAF71893D1D300691A3D /* Hiển thị bảng mã ASSCII và giá trị số tương ứng. */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hiển thị bảng mã ASSCII và giá trị số tương ứng."; sourceTree = BUILT_PRODUCTS_DIR; };
+		5919AAFA1893D1D300691A3D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5919AAFC1893D1D300691A3D /* Hie__n_thi__ba_ng_ma__ASSCII_va__gia__tri__so___tu_o_ng_u__ng_.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "Hie__n_thi__ba_ng_ma__ASSCII_va__gia__tri__so___tu_o_ng_u__ng_.1"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5919AAF41893D1D300691A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5919AAEE1893D1D300691A3D = {
+			isa = PBXGroup;
+			children = (
+				5919AAF91893D1D300691A3D /* Hiển thị bảng mã ASSCII và giá trị số tương ứng. */,
+				5919AAF81893D1D300691A3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5919AAF81893D1D300691A3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5919AAF71893D1D300691A3D /* Hiển thị bảng mã ASSCII và giá trị số tương ứng. */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5919AAF91893D1D300691A3D /* Hiển thị bảng mã ASSCII và giá trị số tương ứng. */ = {
+			isa = PBXGroup;
+			children = (
+				5919AAFA1893D1D300691A3D /* main.c */,
+				5919AAFC1893D1D300691A3D /* Hie__n_thi__ba_ng_ma__ASSCII_va__gia__tri__so___tu_o_ng_u__ng_.1 */,
+			);
+			path = "Hiển thị bảng mã ASSCII và giá trị số tương ứng.";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5919AAF61893D1D300691A3D /* Hiển thị bảng mã ASSCII và giá trị số tương ứng. */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5919AB001893D1D300691A3D /* Build configuration list for PBXNativeTarget "Hiển thị bảng mã ASSCII và giá trị số tương ứng." */;
+			buildPhases = (
+				5919AAF31893D1D300691A3D /* Sources */,
+				5919AAF41893D1D300691A3D /* Frameworks */,
+				5919AAF51893D1D300691A3D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hiển thị bảng mã ASSCII và giá trị số tương ứng.";
+			productName = "Hiển thị bảng mã ASSCII và giá trị số tương ứng.";
+			productReference = 5919AAF71893D1D300691A3D /* Hiển thị bảng mã ASSCII và giá trị số tương ứng. */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5919AAEF1893D1D300691A3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Dao Duy Nhan";
+			};
+			buildConfigurationList = 5919AAF21893D1D300691A3D /* Build configuration list for PBXProject "Hiển thị bảng mã ASSCII và giá trị số tương ứng." */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5919AAEE1893D1D300691A3D;
+			productRefGroup = 5919AAF81893D1D300691A3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5919AAF61893D1D300691A3D /* Hiển thị bảng mã ASSCII và giá trị số tương ứng. */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5919AAF31893D1D300691A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5919AAFB1893D1D300691A3D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5919AAFE1893D1D300691A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5919AAFF1893D1D300691A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5919AB011893D1D300691A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5919AB021893D1D300691A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5919AAF21893D1D300691A3D /* Build configuration list for PBXProject "Hiển thị bảng mã ASSCII và giá trị số tương ứng." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5919AAFE1893D1D300691A3D /* Debug */,
+				5919AAFF1893D1D300691A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5919AB001893D1D300691A3D /* Build configuration list for PBXNativeTarget "Hiển thị bảng mã ASSCII và giá trị số tương ứng." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5919AB011893D1D300691A3D /* Debug */,
+				5919AB021893D1D300691A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5919AAEF1893D1D300691A3D /* Project object */;
+}

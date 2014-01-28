@@ -4,18 +4,42 @@
    <Group
       location = "container:"
       name = "Th&#237; nghi&#7879;m, nghi&#234;n c&#7913;u.">
+      <FileRef
+         location = "group:Input va&#768;o mo&#803;&#770;t da&#771;y ca&#769;c &#273;o&#770;&#769;i tu&#795;o&#795;&#803;ng. Output mo&#803;&#770;t da&#771;y ca&#769;c &#273;o&#770;&#769;i tu&#795;o&#795;&#803;ng rie&#770;ng bie&#803;&#770;t./Input va&#768;o mo&#803;&#770;t da&#771;y ca&#769;c &#273;o&#770;&#769;i tu&#795;o&#795;&#803;ng. Output mo&#803;&#770;t da&#771;y ca&#769;c &#273;o&#770;&#769;i tu&#795;o&#795;&#803;ng rie&#770;ng bie&#803;&#770;t..xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Hie&#770;&#777;n thi&#803; ba&#777;ng ma&#771; ASSCII va&#768; gia&#769; tri&#803; so&#770;&#769; tu&#795;o&#795;ng u&#795;&#769;ng./Hie&#770;&#777;n thi&#803; ba&#777;ng ma&#771; ASSCII va&#768; gia&#769; tri&#803; so&#770;&#769; tu&#795;o&#795;ng u&#795;&#769;ng..xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Hie&#770;&#777;n thi&#803; file du&#795;o&#795;&#769;i da&#803;ng ma&#771; ASCII/Hie&#770;&#777;n thi&#803; file du&#795;o&#795;&#769;i da&#803;ng ma&#771; ASCII.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Generation CharCode/Generation CharCode.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Load CharCode/Load CharCode.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "container:"
       name = "Ph&#225;t tri&#7875;n.">
+      <FileRef
+         location = "group:Xa&#770;y du&#795;&#803;ng Lib cho rie&#770;ng mi&#768;nh./Xa&#770;y du&#795;&#803;ng Lib cho rie&#770;ng mi&#768;nh..xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "container:"
       name = "H&#7885;c tr&#234;n tr&#432;&#7901;ng.">
+      <FileRef
+         location = "group:Scanner/Scanner.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "container:"
       name = "Module chung, tools c&#417; b&#7843;n.">
+      <FileRef
+         location = "group:Nha&#803;&#770;p va&#768;o tu&#795;&#768; ba&#768;n phi&#769;m hoa&#803;&#774;c tu&#795;&#768; file va&#768; hie&#770;&#777;n thi&#803; chuo&#770;&#771;i./Nha&#803;&#770;p va&#768;o tu&#795;&#768; ba&#768;n phi&#769;m hoa&#803;&#774;c tu&#795;&#768; file va&#768; hie&#770;&#777;n thi&#803; chuo&#770;&#771;i..xcodeproj">
+      </FileRef>
       <FileRef
          location = "group:HelloWorld/HelloWorld.xcodeproj">
       </FileRef>
