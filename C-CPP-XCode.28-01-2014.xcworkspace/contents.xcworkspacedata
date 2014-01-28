@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "container:"
+      name = "Th&#237; nghi&#7879;m, nghi&#234;n c&#7913;u.">
+   </Group>
+   <Group
+      location = "container:"
+      name = "Ph&#225;t tri&#7875;n.">
+   </Group>
+   <Group
+      location = "container:"
+      name = "H&#7885;c tr&#234;n tr&#432;&#7901;ng.">
+   </Group>
+   <Group
+      location = "container:"
+      name = "Module chung, tools c&#417; b&#7843;n.">
+      <FileRef
+         location = "group:HelloWorld/HelloWorld.xcodeproj">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:">
    </FileRef>
