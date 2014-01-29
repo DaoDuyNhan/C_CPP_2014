@@ -27,22 +27,58 @@ void skipBlank() {
     }
 }
 
-void skipComment() {
+/*void skipComment() {
   // TODO
-    
-}
+}*/
 
 Token* readIdentKeyword(void) {
   // TODO
+    Token *newToken;
+    newToken = makeToken(TK_IDENT, lineNo, lineNo);
+    if (newToken == NULL) {
+        printf("Loi khong the cap phat Token moi!\n");
+        exit(1);
+    }
+    int i = 0;
+    while (charCodes[currentChar] == CHAR_LETTER || charCodes[currentChar] == CHAR_DIGIT) {
+        if (i == MAX_IDENT_LEN) {
+            error(ERR_IDENTTOOLONG, lineNo, lineNo);
+            while (charCodes[currentChar] == CHAR_LETTER || charCodes[currentChar] == CHAR_DIGIT) {
+                readChar();
+            }
+            newToken->tokenType = TK_NONE;
+            return  newToken;
+        }
+        newToken->string[i++]= currentChar;
+        readChar();
+    }
+    newToken->tokenType = checkKeyword(newToken->string);
+    if (TK_NONE != newToken->tokenType) {
+        return newToken;
+    }
+    newToken->tokenType = TK_IDENT;
+    return newToken;
 }
 
 Token* readNumber(void) {
   // TODO
+    Token*  newToken;
+    newToken = makeToken(TK_NUMBER, lineNo, lineNo);
+    if (newToken == NULL) {
+        printf("Loi khong the cap phat duoc newToken!\n");
+        exit(1);
+    }
+    int i =0;
+    while (charCodes[currentChar] == CHAR_LETTER) {
+        newToken->string[i++] = currentChar;
+        readChar();
+    }
+    return newToken;
 }
 
-Token* readConstChar(void) {
+/*Token* readConstChar(void) {
   // TODO
-}
+}*/
 
 Token* getToken(void) {
   Token *token;
