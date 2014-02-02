@@ -22,6 +22,9 @@
       <FileRef
          location = "group:Load CharCode/Load CharCode.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:Create Parser/Create Parser.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "container:"
@@ -35,6 +38,9 @@
       name = "H&#7885;c tr&#234;n tr&#432;&#7901;ng.">
       <FileRef
          location = "group:Scanner/Scanner.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Parser/Parser.xcodeproj">
       </FileRef>
    </Group>
    <Group
