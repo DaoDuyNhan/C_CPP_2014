@@ -1,0 +1,5 @@
+Tools "So sánh nội dung 2 file".
+Nhận vào 2 file từ tham số trên dòng lệnh.
+Đọc mỗi file một kí tự, nếu chúng khác nhau thì 2 file khác nhau.
+Cứ đọc thế cho đến khi hết file.
+Nếu đến hết file thì 2 file có nội dung như nhau.

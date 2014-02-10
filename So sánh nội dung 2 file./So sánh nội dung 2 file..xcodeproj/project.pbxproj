@@ -28,6 +28,7 @@
 		59F3A84018A94FFD00E1F000 /* So sánh nội dung 2 file. */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "So sánh nội dung 2 file."; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F3A84318A94FFD00E1F000 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		59F3A84518A94FFD00E1F000 /* So_sa_nh_no__i_dung_2_file_.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = So_sa_nh_no__i_dung_2_file_.1; sourceTree = "<group>"; };
+		59F3A84C18A954BA00E1F000 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			children = (
 				59F3A84318A94FFD00E1F000 /* main.c */,
 				59F3A84518A94FFD00E1F000 /* So_sa_nh_no__i_dung_2_file_.1 */,
+				59F3A84C18A954BA00E1F000 /* README */,
 			);
 			path = "So sánh nội dung 2 file.";
 			sourceTree = "<group>";
