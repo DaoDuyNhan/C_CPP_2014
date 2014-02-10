@@ -25,6 +25,9 @@
       <FileRef
          location = "group:Create Parser/Create Parser.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:So sa&#769;nh no&#803;&#770;i dung 2 file./So sa&#769;nh no&#803;&#770;i dung 2 file..xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "container:"
